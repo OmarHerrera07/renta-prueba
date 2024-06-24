@@ -12,6 +12,10 @@ public class HomeController {
     public String getMethodName() {
         return "index";
     }
-    
+
+    @GetMapping("/get-hola-mundo")
+    public String getHolaMundo() {
+        return "Hola mundo";
+    }
     
 }
