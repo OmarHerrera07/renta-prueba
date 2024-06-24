@@ -15,6 +15,7 @@ public class HomeController {
 
     @GetMapping("/get-hola-mundo")
     public String getHolaMundo() {
+        System.out.println("Hola mundo");
         return "Hola mundo";
     }
     
